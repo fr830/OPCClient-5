@@ -14,8 +14,6 @@ import java.util.concurrent.Executors;
 public class Main {
 
 	public static void main(String[] args) throws IllegalArgumentException, Exception, JIException, AlreadyConnectedException {
-		long start = System.currentTimeMillis();
-		System.out.println(System.currentTimeMillis() - start);
 		Connection conn = null;
 		PreparedStatement st = null;
 		ResultSet rs = null;
